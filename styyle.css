@@ -1,0 +1,158 @@
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)) , url(plane.jpg);
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+nav{
+    width: 100%
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:first baseline;
+}
+.symbol{
+    font-size: 2rem;
+}
+.menu a{
+    text-decoration:none;
+color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.register a{
+    padding-top: 10%;
+    text-decoration:none;
+color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+   border-radius: 8px;
+    background: burlywood;
+
+}
+.register a:hover{
+    border: 1px solid bisque;
+    background: transparent;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text span(){
+    letter-spacing: 5px;
+
+}
+.text h1{
+    font-size: 3.5rem;
+}
+.text a{
+    text-decoration: none;
+    background: bisque;
+    padding: 10px 20px;
+    color: black;
+    letter-spacing: 5px;
+}
+.text a:hover{
+    border: 1px solid bisque;
+    background: transparent;
+    transition: 0 4s;
+}
+
+#div1{
+    width: 33.33%;
+    float: left;
+    height: 300px;
+}
+#div2{
+    width: 33.33%;
+    float: right;
+    height: 300px;
+}
+#div3{
+    width: 33.33%;
+    margin: 0 auto;
+    height: 300px;
+}
+.packes{
+    font-size: 1.7rem;
+    display: inline;
+}
+.travel h2{
+    left: 50%;
+    align-items: center;
+    font-size: large;
+}
+.take a{
+   text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.takes a{
+    text-decoration: none;
+     color: black;
+     padding: 10px 20px;
+     font-size: 20px;
+     font: bolder;
+    font-family: 'Oswald', sans-serif;
+     
+     
+ }
+ .takess a{
+    text-decoration: none;
+     color: black;
+     padding: 10px 20px;
+     font-size: 20px;
+     font-family: 'Oswald', sans-serif;
+     
+     
+ }
+ #div1{
+    background-color: burlywood;
+    height: 200px;
+    border-color: black;
+    border-radius: 10%;
+    background-image: url(beach.jpg);
+ }
+ #div2{
+    background-color: burlywood;
+    height: 200px;
+    border-radius: 10%;
+    background-image: url(beach.jpg);
+ }
+ #div3{
+    background-color:lightgrey;
+    height: 200px;
+    border-radius: 10%;
+    background-image: url(SHADESS.jpg);
+ }
+ #div1 h1{
+    padding-right: 20%;
+    padding-left: 20%;
+   
+ }
+ #div2 h1{
+    padding-right: 20%;
+    padding-left: 20%;
+ }
+ #div3 h1{
+    padding-right: 20%;
+    padding-left: 20%;
+ }
+h2.travel{
+    padding-left: 34% ;
+    font-size: 3rem;
+ }
